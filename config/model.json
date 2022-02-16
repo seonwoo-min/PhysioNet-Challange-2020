@@ -1,0 +1,9 @@
+{
+"block": "ResNet_Basic",
+"num_blocks": 8,
+"width_factor": 2,
+"kernel_size": 11,
+"stride": 4,
+"shortcut": "pool",
+"dropout_rate": 0.3
+}

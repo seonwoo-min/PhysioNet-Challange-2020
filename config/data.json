@@ -1,0 +1,6 @@
+{
+  "path": "config/",
+  "datasets": ["CPSC", "CPSC-Extra", "PTB-XL", "Georgia"],
+  "chunk_length": 2048,
+  "chunk_stride": 1536
+}

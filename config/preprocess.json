@@ -1,0 +1,8 @@
+{
+"sample_rate": 500,
+"filter_highpass": [],
+"filter_highpass": [],
+"filter_lowpass": [],
+"filter_notch": [50, 60],
+"scaler": "standard"
+}

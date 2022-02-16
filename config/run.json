@@ -1,0 +1,15 @@
+{
+  "batch_size_train": 128,
+  "batch_size_eval": 256,
+  "num_epochs": 100,
+  "optimizer": "adam",
+  "scheduler": "warmup_cosine",
+  "learning_rate": 0.001,
+  "learning_rate_decay": 0.2,
+  "patience": 10,
+  "weight_decay": 0.0005,
+  "multi_label": true,
+  "class_weight": false,
+  "confusion_weight": true,
+  "mixup": "manifold"
+}
