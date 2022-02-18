@@ -19,8 +19,8 @@ Download the training data into the `data` folder from these links:
 We follow the [Challenge Submission](https://moody-challenge.physionet.org/2020/submissions) instructions. <br/>
 Build a Docker image and run the code using the following steps:
 ```
-    docker build -t image .
-    docker run --gpus device=0 --ipc=host -it -v ~/data:/physionet/data -v ~/models:/physionet/models  -v ~/outputs:/physionet/outputs image bash
-    python train_model.py data models
-    python driver.py models data outputs
+docker build -t image .
+docker run --gpus device=0 --ipc=host -it -v ~/data:/physionet/data -v ~/models:/physionet/models  -v ~/outputs:/physionet/outputs image bash
+python train_model.py data models
+python driver.py models data outputs
 ```
